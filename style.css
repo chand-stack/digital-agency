@@ -21,10 +21,149 @@ nav{
     gap: 30px;
 }
 .head{
-    margin-top: -22px;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('/asset/image/background.jpg');
+    background-image: url('/asset/image/background.jpg'),
+    linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1));
+    background-blend-mode: overlay;
+}
+.head-information{
+    text-align: center;
+    padding-top: 15%;
+    color: white;
+}
+.head-title{
+    font-size: 60px;
+}
+.head-digital{
+    color: red;
+}
+.head-description{
+    width: 350px;
+    margin: auto;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.btn{
+    
+    height: 50px;
+    width: 200px;
+    border: none;
+    margin-left: 2px;
+}
+.btn-primary{
+    color: white;
+    width: 200px;
+height: 50px;
+background-color: red;
+border: none;
+margin-right: 2px;
+}
 
+.service-container{
+    height: 100vh;
+    background-image: url('/asset/image/footer-bg.png'),
+    linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-img{
+    height: 100px;
+    width: 100px;
+}
+.box{
+    border-radius: 5px;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    color: black;
+    text-align: center;
+    padding:30px;
+    align-items: center;
+}
+.right-container{
+    gap: 5px;
+}
+.boxs{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+.boxss{
+    display: flex;
+    gap: 5px;
+}
+.service-description{
+    width: 450px;
+}
+.srv-btn{
+    height: 45px;
+    width: 140px;
+    border: none;
+    border-radius: 60px;
+    color: gray;
+}
+.author-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.author-container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space;
+}
+.author-btn{
+    
+    height: 45px;
+    width: 140px;
+    border: none;
+    border-radius: 60px;
+    color: red; 
+}
+.author-section{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.call-img{
+    height: 100px;
+}
+.call{
+    display: flex;
+    border-right: 1px solid black;
+}
+
+.call-container{
+    border-radius: 15px;
+   margin-left: 10%;
+   margin-top: -40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 200px;
+    width: 80%;
+    background-color: red;
+}
+.call-btn{
+    height: 45px;
+    width: 140px;
+    border: none;
+    border-radius: 60px;
+    color: black; 
+}
+.call-des{
+    width: 400px;
+}
+
+.call-descon{
+    display: flex;
+    align-items: center;
 }

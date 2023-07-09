@@ -24,7 +24,7 @@ nav{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('/asset/image/background.jpg'),
+    background-image: url('./asset/image/background.jpg'),
     linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1));
     background-blend-mode: overlay;
 }
@@ -63,7 +63,7 @@ margin-right: 2px;
 
 .service-container{
     height: 100vh;
-    background-image: url('/asset/image/footer-bg.png'),
+    background-image: url('./asset/image/footer-bg.png'),
     linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
     background-blend-mode: overlay;
     color: white;
@@ -205,7 +205,7 @@ margin-right: 2px;
 .footer{
     margin-top: 20px;
     height: 600px;
-    background-image: url('/asset/image/footer-bg.png'),
+    background-image: url('./asset/image/footer-bg.png'),
     linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
     background-blend-mode: overlay;
     display: flex;

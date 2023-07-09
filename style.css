@@ -199,3 +199,19 @@ margin-right: 2px;
     justify-content: space-around;
     margin-top: 30px;
 }
+.foot-des{
+    width: 300px;
+}
+.footer{
+    margin-top: 20px;
+    height: 600px;
+    background-image: url('/asset/image/footer-bg.png'),
+    linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    border-radius: 5px;
+}
+
